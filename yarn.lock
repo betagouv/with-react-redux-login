@@ -7271,9 +7271,9 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-with-react-login@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.0.2.tgz#920f90dfb54d643066605eb6d3d24d5f0452a5fc"
+with-react-login@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.1.1.tgz#9e045885b2eff3e67d5f2ac06b02e87e2fd99d9e"
   dependencies:
     classnames "2.2.5"
     eslint "^5.8.0"
