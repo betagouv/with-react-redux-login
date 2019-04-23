@@ -12,7 +12,7 @@ import { configureTestStore,
 } from './configure'
 import { Foo } from './Foo'
 import { Signin } from './Signin'
-import { withLogin } from '../withLogin'
+import withLogin from '../withLogin'
 
 describe('src | components | pages | hocs | withLogin', () => {
 
