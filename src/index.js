@@ -1,3 +1,4 @@
-import { withLogin } from './withLogin'
+import withLogin from './withLogin'
 
+export * from './mapStateToProps'
 export default withLogin
