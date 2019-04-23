@@ -2,8 +2,8 @@
 
 React Redux hoc component for rendering page only on user log success.
 
-[![CircleCI](https://circleci.com/gh/betagouv/with-react-redux login/tree/master.svg?style=svg)](https://circleci.com/gh/betagouv/with-react-redux login/tree/master)
-[![npm version](https://img.shields.io/npm/v/with-react-redux login.svg?style=flat-square)](https://npmjs.org/package/with-react-redux login)
+[![CircleCI](https://circleci.com/gh/betagouv/with-react-redux-login/tree/master.svg?style=svg)](https://circleci.com/gh/betagouv/with-react-redux-login/tree/master)
+[![npm version](https://img.shields.io/npm/v/with-react-redux-login.svg?style=flat-square)](https://npmjs.org/package/with-react-redux-login)
 
 ## Basic Usage
 
