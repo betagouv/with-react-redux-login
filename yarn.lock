@@ -7291,10 +7291,10 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-with-react-login@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.3.0.tgz#af0a0dcc50b9b80097b009ae120e1b900c4ed3ea"
-  integrity sha512-61fic5lpH/B1snfCb7Jnd1a5j/IMHjVxq9TZgR7VDBqBQJwBrFDusgVVmzRXZz5IwrzDpmeuwhjdjWo/wXhZWQ==
+with-react-login@1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.3.1.tgz#48065b032308d53f8b60f196ca171b7d338495ac"
+  integrity sha512-+BCdqgCAAf0vALvKn2AD7aYA9FpJMzXhOa7xD8EkE7TRX3wWMFSQHRdutyCUSVYx8SVnSHecH7W2rauwvnL/KQ==
   dependencies:
     classnames "2.2.5"
     eslint "^5.8.0"
