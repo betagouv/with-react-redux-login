@@ -14,12 +14,17 @@ See first the store install process in [redux-thunk-data](https://github.com/bet
 Then you can declare a login component like this:
 
 ```javascript
+import { withRouter } from 'react-router-dom'
+import { compose } from 'redux'
 import withLogin from 'with-react-redux-login'
 
-const withLoginRedirectToSigninWhenNotAuthenticated = withLogin({
-  currentUserApiPath: '/users/current',
-  failRedirect: '/signin',
-})
+const withLoginRedirectToSigninWhenNotAuthenticated = compose(
+  withRouter,
+  withLogin({
+    currentUserApiPath: '/users/current',
+    handleFail: (state, action, { history }) => history.push('/signin'),
+  })
+)
 
 const FooPage = () => {
   // withLogin passes a currentUser props
@@ -47,15 +52,20 @@ Like above, see the install process in [redux-thunk-data](https://github.com/bet
 Then you need just to slightly change setup:
 
 ```javascript
+import { withRouter } from 'react-router-dom'
+import { compose } from 'redux'
 import { requestData } from 'redux-thunk-data'
 import withLogin from 'with-react-redux-login'
 
-const withLoginRedirectToSigninWhenNotAuthenticated = withLogin({
-  currentUserApiPath: '/users/current',
-  failRedirect: '/signin',
-  // and also the 'promised' action creator
-  requestData
-})
+const withLoginRedirectToSigninWhenNotAuthenticated = compose(
+  withRouter,
+  withLogin({
+    currentUserApiPath: '/users/current',
+    handleFail: (state, action, { history }) => history.push('/signin'),
+    // and also the 'promised' action creator
+    requestData
+  })
+)
 ...
 ```
 
