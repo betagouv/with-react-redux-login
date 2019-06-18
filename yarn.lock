@@ -7291,9 +7291,10 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-with-react-login@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.2.0.tgz#07c7e1dcb205c8735c8672ce863d4b9662c1e44a"
+with-react-login@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.3.0.tgz#af0a0dcc50b9b80097b009ae120e1b900c4ed3ea"
+  integrity sha512-61fic5lpH/B1snfCb7Jnd1a5j/IMHjVxq9TZgR7VDBqBQJwBrFDusgVVmzRXZz5IwrzDpmeuwhjdjWo/wXhZWQ==
   dependencies:
     classnames "2.2.5"
     eslint "^5.8.0"
@@ -7301,8 +7302,6 @@ with-react-login@1.2.0:
     lodash.uniq "^4.5.0"
     prop-types "^15.6.2"
     react "^16.5.2"
-    react-dom "^16.5.2"
-    react-router-dom "^4.3.1"
     reselect "^3.0.1"
     uuid "^3.3.2"
 

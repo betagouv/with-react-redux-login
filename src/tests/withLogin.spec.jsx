@@ -49,7 +49,7 @@ describe('src | components | pages | hocs | withLogin', () => {
         history.push('/test')
         const store = configureTestStore()
         const LoginFoo = withLogin({
-          failRedirect: () => "/signin"
+          handleFail: () => history.push("/signin")
         })(Foo)
         configureFetchCurrentUserWithLoginFail()
 

@@ -1,6 +1,6 @@
 import { selectCurrentUser } from 'with-react-login'
 
-export function mapStateToProps (state) {
+function mapStateToProps (state) {
   return {
     currentUser: selectCurrentUser(state)
   }
