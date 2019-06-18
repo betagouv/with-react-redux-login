@@ -1,4 +1,8 @@
-import { currentUserUUID, selectCurrentUser} from 'with-react-login'
+import {
+  currentUserUUID,
+  resolveCurrentUser,
+  selectCurrentUser
+} from 'with-react-login'
 import withLogin from './withLogin'
 
 import mapStateToProps from './mapStateToProps'
@@ -6,6 +10,7 @@ import mapStateToProps from './mapStateToProps'
 export {
   currentUserUUID,
   mapStateToProps,
+  resolveCurrentUser,
   selectCurrentUser
 }
 
