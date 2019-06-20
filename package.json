@@ -2,7 +2,7 @@
   "dependencies": {
     "eslint": "^5.8.0",
     "react-redux": "^5.0.3",
-    "with-react-login": "1.3.1"
+    "with-react-login": "1.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.1",
@@ -52,7 +52,7 @@
     "login",
     "redux"
   ],
-  "license": "MIT",
+  "license": "Mozilla Public License",
   "main": "lib/index.js",
   "name": "with-react-redux-login",
   "private": false,

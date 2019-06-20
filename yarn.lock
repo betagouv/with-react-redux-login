@@ -3052,9 +3052,10 @@ fetch-normalize-data@1.0.0:
     eslint "^5.8.0"
     lodash.uniqby "^4.7.0"
 
-fetch-normalize-data@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.1.0.tgz#25c6e1689f422052c71733295910bafc3c3a990a"
+fetch-normalize-data@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.2.0.tgz#dea9eed7857927dbdf2e392231629f5d4245b159"
+  integrity sha512-Ja7DoPoN0WoMFXslP7dfHyOnnkU8r9rZjDz6j6lpWJ+pUmurrO+B9ptTy04QuUjV3iUQt0Ca54SXjE+d4d8WIw==
   dependencies:
     eslint "^5.8.0"
     lodash.uniqby "^4.7.0"
@@ -7291,14 +7292,14 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-with-react-login@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.3.1.tgz#48065b032308d53f8b60f196ca171b7d338495ac"
-  integrity sha512-+BCdqgCAAf0vALvKn2AD7aYA9FpJMzXhOa7xD8EkE7TRX3wWMFSQHRdutyCUSVYx8SVnSHecH7W2rauwvnL/KQ==
+with-react-login@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.6.0.tgz#f5b83448e0c46539467f6600b83b3607038eaf3a"
+  integrity sha512-cSMI7y06y4MmS08rz2A2gRawl+lOAWVXcBOoGRQmAWTeLx0NyfUfRMkQZ3vq7XRSzEigDieXs/cv63DRbCdwVA==
   dependencies:
     classnames "2.2.5"
     eslint "^5.8.0"
-    fetch-normalize-data "1.1.0"
+    fetch-normalize-data "1.2.0"
     lodash.uniq "^4.5.0"
     prop-types "^15.6.2"
     react "^16.5.2"
