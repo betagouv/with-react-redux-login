@@ -2,7 +2,7 @@
   "dependencies": {
     "eslint": "^5.8.0",
     "react-redux": "^5.0.3",
-    "with-react-login": "1.6.0"
+    "with-react-login": "1.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.1",
@@ -44,7 +44,7 @@
     "react-router-dom": "^4.3.1",
     "react-test-renderer": "^16.5.1",
     "redux-saga": "^0.15.3",
-    "redux-saga-data": "2.2.3"
+    "redux-saga-data": "2.5.2"
   },
   "keywords": [
     "react",
@@ -52,7 +52,7 @@
     "login",
     "redux"
   ],
-  "license": "Mozilla Public License",
+  "license": "MPL-2.0",
   "main": "lib/index.js",
   "name": "with-react-redux-login",
   "private": false,
