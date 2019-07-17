@@ -1,5 +1,5 @@
 import {
-  currentUserUUID,
+  getCurrentUserUUID,
   resolveCurrentUser,
   selectCurrentUser
 } from 'with-react-login'
@@ -8,7 +8,7 @@ import withLogin from './withLogin'
 import mapStateToProps from './mapStateToProps'
 
 export {
-  currentUserUUID,
+  getCurrentUserUUID,
   mapStateToProps,
   resolveCurrentUser,
   selectCurrentUser
