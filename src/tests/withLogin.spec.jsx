@@ -14,8 +14,7 @@ import { Foo } from './Foo'
 import { Signin } from './Signin'
 import withLogin from '../withLogin'
 
-describe('src | components | pages | hocs | withLogin', () => {
-
+describe('src | withLogin', () => {
   beforeEach(() => {
     fetch.resetMocks()
   })
@@ -42,6 +41,7 @@ describe('src | components | pages | hocs | withLogin', () => {
         )
       })
     })
+
     describe('login with fail', () => {
       it('should redirect to failRedirect when login is a fail', done => {
         // when
