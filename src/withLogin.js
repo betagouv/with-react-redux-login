@@ -5,7 +5,7 @@ import mapStateToProps from './mapStateToProps'
 
 const withLogin = config =>
   _withLogin(
-    Object.assign({}, config, { withDispatcher: connect(mapStateToProps) })
+    {...config, ...{ withDispatcher: connect(mapStateToProps) }}
   )
 
 export default withLogin
