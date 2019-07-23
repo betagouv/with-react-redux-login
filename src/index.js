@@ -14,6 +14,4 @@ export {
   selectCurrentUser
 }
 
-
-
 export default withLogin
