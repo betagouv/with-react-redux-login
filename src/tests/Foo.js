@@ -10,23 +10,22 @@ export class Foo extends Component {
   render () {
     const { currentUser } = this.props
     const { email } = currentUser
+
     return (
       <div>
-        I am connected with
-        {email}
-        !
+        I am connected with {email}!
       </div>
     )
   }
 }
 
 Foo.defaultProps = {
-  onMountCallback: () => {}
+  onMountCallback: () => {},
 }
 
 Foo.propTypes = {
-  currentUser: PropTypes.object.isRequired,
-  onMountCallback: PropTypes.func
+  currentUser: PropTypes.shape().isRequired,
+  onMountCallback: PropTypes.func,
 }
 
 export default Foo
