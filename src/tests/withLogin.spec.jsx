@@ -1,4 +1,4 @@
-import 'babel-polyfill'
+import '@babel/polyfill'
 
 import { mount } from 'enzyme'
 import { createBrowserHistory } from 'history'
