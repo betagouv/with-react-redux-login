@@ -2,22 +2,20 @@ import PropTypes from 'prop-types'
 import { Component } from 'react'
 
 export class Signin extends Component {
-  componentDidMount () {
+  componentDidMount() {
     const { onMountCallback } = this.props
     onMountCallback()
   }
 
-  render () {
+  render() {
     return null
   }
 }
 
 Signin.defaultProps = {
-  onMountCallback: () => {}
+  onMountCallback: () => {},
 }
 
 Signin.propTypes = {
-  onMountCallback: PropTypes.func
+  onMountCallback: PropTypes.func,
 }
-
-export default Signin

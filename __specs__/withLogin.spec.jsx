@@ -1,20 +1,20 @@
 import '@babel/polyfill'
-
 import { mount } from 'enzyme'
 import { createBrowserHistory } from 'history'
 import React from 'react'
 import { Provider } from 'react-redux'
 import { Route, Router, Switch } from 'react-router-dom'
 
-import { configureTestStore,
+import {
+  configureTestStore,
   configureFetchCurrentUserWithLoginFail,
-  configureFetchCurrentUserWithLoginSuccess
+  configureFetchCurrentUserWithLoginSuccess,
 } from './configure'
 import { Foo } from './Foo'
 import { Signin } from './Signin'
-import withLogin from '../withLogin'
+import withLogin from '../index'
 
-describe('src | withLogin', () => {
+describe('index', () => {
   beforeEach(() => {
     fetch.resetMocks()
   })
@@ -49,7 +49,7 @@ describe('src | withLogin', () => {
         history.push('/test')
         const store = configureTestStore()
         const LoginFoo = withLogin({
-          handleFail: () => history.push("/signin")
+          handleFail: () => history.push('/signin'),
         })(Foo)
         configureFetchCurrentUserWithLoginFail()
 

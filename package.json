@@ -14,6 +14,10 @@
     "enzyme-adapter-react-16": "^1.5.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^2.6.0",
     "jest": "^24.8.0",
     "jest-fetch-mock": "^2.1.1",
     "nodemon": "^1.11.0",
@@ -37,13 +41,19 @@
     "url": "https://github.com/betagouv/with-react-redux-login"
   },
   "scripts": {
-    "compile": "rm -rf lib && babel -d lib/ src/",
-    "postinstall": "if [ -d 'src/' ]; then npm run compile; fi",
-    "precommit": "./precommit.sh",
+    "compile": "rm -rf lib && babel -d lib/ index.js",
+    "postinstall": "npm run compile",
     "prepublish": "npm run compile",
-    "prettier": "prettier --write 'src/**/*.{js,jsx}'",
-    "test": "jest --env=jsdom ./src",
-    "watch": "nodemon --watch src --exec 'npm run compile'"
+    "lint:js": "eslint './**/*.{js,jsx}'",
+    "lint:js:fix": "npm run lint:js --fix",
+    "format:js": "prettier --write './**/*.{js,jsx}'",
+    "test": "jest --env=jsdom ./__specs__",
+    "watch": "nodemon --watch index.js --exec 'npm run compile'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "./precommit.sh"
+    }
   },
   "version": "1.7.0"
 }

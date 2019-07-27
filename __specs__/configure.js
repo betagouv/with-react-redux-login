@@ -1,14 +1,9 @@
-import {
-  applyMiddleware,
-  combineReducers,
-  createStore
-} from 'redux'
+import { applyMiddleware, createStore, combineReducers } from 'redux'
 import createSagaMiddleware from 'redux-saga'
 import { all } from 'redux-saga/effects'
 import { createDataReducer, watchDataActions } from 'redux-saga-data'
 
-export function configureTestStore() {
-
+export const configureTestStore = () => {
   const sagaMiddleware = createSagaMiddleware()
   const storeEnhancer = applyMiddleware(sagaMiddleware)
 
@@ -31,16 +26,15 @@ export function configureTestStore() {
   return store
 }
 
-export function configureFetchCurrentUserWithLoginFail () {
-  fetch.mockResponse(JSON.stringify(
-    [{ global: ['Nobody is authenticated here'] }],
-  ), { status: 400 })
+export const configureFetchCurrentUserWithLoginFail = () => {
+  fetch.mockResponse(
+    JSON.stringify([{ global: ['Nobody is authenticated here'] }]),
+    { status: 400 }
+  )
 }
 
-export function configureFetchCurrentUserWithLoginSuccess () {
-  fetch.mockResponse(JSON.stringify(
-    { email: 'michel.marx@youpi.fr' }
-  ), { status: 200 })
+export const configureFetchCurrentUserWithLoginSuccess = () => {
+  fetch.mockResponse(JSON.stringify({ email: 'michel.marx@youpi.fr' }), {
+    status: 200,
+  })
 }
-
-export default configureTestStore
