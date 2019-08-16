@@ -6,8 +6,7 @@
 # If git is reporting that your prettified files are still modified
 # after committing, you may need to add a post-commit script
 # to update git's index as described in this issue.
-
-STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep "js$")
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E ".js$|.jsx$")
 if [[ "$STAGED_FILES" = "" ]]; then
     exit 0
 fi
@@ -24,7 +23,7 @@ do
 done
 
 # Prettify all staged .js files
-echo "$STAGED_FILES" | xargs ./node_modules/.bin/prettier --config ./.prettierrc.json --list-different --write
+echo "$STAGED_FILES" | xargs ./node_modules/.bin/prettier-eslint --eslint-config-path ./.eslintrc.json --config ./.prettierrc.json --list-different --write
 
 # Add back the modified/prettified files to staging
 echo "$STAGED_FILES" | xargs git add
