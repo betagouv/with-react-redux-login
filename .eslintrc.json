@@ -1,10 +1,18 @@
 {
   "extends": [
-    "airbnb",
-    "prettier"
+    "eslint:recommended",
+    "plugin:react/all",
+    "plugin:jsx-a11y/strict",
+    "plugin:import/errors",
+    "plugin:jest/all"
   ],
   "parser": "babel-eslint",
   "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      }
+    },
     "react": {
       "version": "detect"
     }
@@ -16,24 +24,22 @@
     "node": true
   },
   "rules": {
-    "import/no-extraneous-dependencies": "off",
-    "import/prefer-default-export": "off",
-    "no-param-reassign": 1,
-    "no-restricted-syntax": 1,
-    "prefer-destructuring": 1,
-    "sort-keys": [
-      1,
-      "asc",
-      {
-        "caseSensitive": true,
-        "natural": false
-      }
-    ],
-    "sort-vars": [
-      1,
-      {
-        "ignoreCase": true
-      }
-    ]
+    "jest/no-hooks": "off",
+    "jest/prefer-expect-assertions": "off",
+    "jest/prefer-inline-snapshots": "off",
+    "jsx-a11y/label-has-for": "off",
+    "no-var": "error",
+    "react/forbid-component-props": "off",
+    "react/jsx-curly-brace-presence": [true, { "props": "never", "children": "always" }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-fragments": "off",
+    "react/jsx-indent": [2, 2],
+    "react/jsx-indent-props": [2, 2],
+    "react/jsx-max-depth": "off",
+    "react/jsx-one-expression-per-line": [true, { "allow": "literal" }],
+    "react/jsx-props-no-spreading": "off",
+    "react/no-set-state": "off",
+    "react/static-property-placement": "off",
+    "semi": ["error", "never"]
   }
 }
