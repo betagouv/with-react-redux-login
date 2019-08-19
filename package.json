@@ -1,7 +1,22 @@
 {
+  "name": "with-react-redux-login",
+  "version": "1.8.0",
+  "private": false,
+  "main": "lib/index.js",
+  "license": "MPL-2.0",
+  "keywords": [
+    "react",
+    "hoc",
+    "login",
+    "redux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/betagouv/with-react-redux-login"
+  },
   "dependencies": {
-    "react-redux": "^7.0.0",
-    "with-react-login": "1.7.2"
+    "react-redux": "^7.1.0",
+    "with-react-login": "1.8.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -12,33 +27,25 @@
     "babel-eslint": "^10.0.0",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.1.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.7.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
+    "history": "^4.9.0",
     "husky": "^2.6.0",
-    "jest": "^24.8.0",
+    "jest": "^24.9.0",
+    "jest-environment-jsdom": "^24.5.0",
     "jest-fetch-mock": "^2.1.1",
     "nodemon": "^1.11.0",
-    "prettier-eslint": "^9.0.0",
-    "react-dom": "^16.8.6",
+    "prettier-eslint-cli": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.0",
-    "redux-saga-data": "^2.5.4"
-  },
-  "keywords": [
-    "react",
-    "hoc",
-    "login",
-    "redux"
-  ],
-  "license": "MPL-2.0",
-  "main": "lib/index.js",
-  "name": "with-react-redux-login",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/betagouv/with-react-redux-login"
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5",
+    "redux-saga-data": "^2.8.0"
   },
   "scripts": {
     "compile": "rm -rf lib && babel -d lib/ index.js",
@@ -46,7 +53,7 @@
     "prepublish": "npm run compile",
     "lint:js": "eslint './**/*.{js,jsx}'",
     "lint:js:fix": "npm run lint:js --fix",
-    "format:js": "prettier --write './**/*.{js,jsx}'",
+    "format:js": "prettier-eslint --write './**/*.{js,jsx}'",
     "test": "jest --env=jsdom ./__specs__",
     "watch": "nodemon --watch index.js --exec 'npm run compile'"
   },
@@ -54,6 +61,5 @@
     "hooks": {
       "pre-commit": "./precommit.sh"
     }
-  },
-  "version": "1.7.1"
+  }
 }
