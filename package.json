@@ -49,7 +49,6 @@
   },
   "scripts": {
     "compile": "rm -rf lib && babel -d lib/ index.js",
-    "postinstall": "npm run compile",
     "prepublish": "npm run compile",
     "lint:js": "eslint './**/*.{js,jsx}'",
     "lint:js:fix": "npm run lint:js --fix",
