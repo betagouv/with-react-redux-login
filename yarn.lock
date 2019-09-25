@@ -2562,6 +2562,16 @@ fetch-normalize-data@1.4.1:
     lodash.uniqby "^4.7.0"
     uuid "^3.3.2"
 
+fetch-normalize-data@1.8.4:
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.8.4.tgz#09c7dc35d4376f860526e3998cb02827c32033c0"
+  integrity sha512-hY+vGN/3PgQxwuKyNs7orvcJlSAR57WxRRka1GAr/I3F8rb5OcMhHi7VJZHYcHZDtXwGzD9e4asMozXhKx/NJA==
+  dependencies:
+    lodash.uniqby "^4.7.0"
+    re-reselect "^3.4.0"
+    reselect "^3.0.1"
+    uuid "^3.3.2"
+
 figures@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"
@@ -5059,6 +5069,11 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+re-reselect@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/re-reselect/-/re-reselect-3.4.0.tgz#0f2303f3c84394f57f0cd31fea08a1ca4840a7cd"
+  integrity sha512-JsecfN+JlckncVXTWFWjn0Vk6uInl8GSf4eEd9tTk5qXHlgqkPdILpnYpgZcISXNYAzvfvsCZviaDk8AxyS5sg==
+
 react-dom@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
@@ -6340,13 +6355,13 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-with-react-login@1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.9.0.tgz#9b150234a825bd41cdd344c4887c59775e046c83"
-  integrity sha512-mLZisL23FZI1UoIq6idc/HoaSRznrXgg2CaZjQB2m+XPzM/sgcA9Ia3F/gEFxeyNkFIKXc7ShTRk8rjtPJH50A==
+with-react-login@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.10.0.tgz#24ad0dd7b190cecd7c80fbd5d356d584a75951a5"
+  integrity sha512-el/f8VsfJY1g33KBiRkX3t3HDUQVES3yog+6J1qnlQx7SdFyEiCHbAljC5EC3xnEexf16uM8rbpd5EEO3TGQUg==
   dependencies:
     classnames "2.2.5"
-    fetch-normalize-data "1.4.1"
+    fetch-normalize-data "1.8.4"
     lodash.uniq "^4.5.0"
     prop-types "^15.7.2"
     react "^16.9.0"
