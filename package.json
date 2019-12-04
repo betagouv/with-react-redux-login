@@ -15,8 +15,8 @@
     "url": "https://github.com/betagouv/with-react-redux-login"
   },
   "dependencies": {
-    "react-redux": "^7.1.0",
-    "with-react-login": "1.10.0"
+    "react-redux": "^7.1.1",
+    "with-react-login": "1.11.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.1",
@@ -41,8 +41,8 @@
     "nodemon": "^1.11.0",
     "prettier-eslint-cli": "^5.0.0",
     "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.4",
     "redux-saga": "1.1.1",
