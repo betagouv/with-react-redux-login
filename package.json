@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "react-redux": "^7.1.1",
-    "with-react-login": "1.11.0"
+    "with-react-login": "1.11.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.1",
