@@ -6374,10 +6374,10 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-with-react-login@1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.11.1.tgz#70fdd34c8ef04d4af67fad5d5d9ce2775b20aa9c"
-  integrity sha512-luYTsKjs40Ka0pw6CXGj2BXaW/vmxUS7QP/hDRskvHEd2gSx+ekcZLBb/tK7IKzpLhiDX+NR8AlkTRQ1aoaueg==
+with-react-login@1.11.3:
+  version "1.11.3"
+  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.11.3.tgz#f4cc0a9d7aef79d048366e051485fe73db91e52b"
+  integrity sha512-EOExHaETVmqz71z2vT3bNZuMVc+RZZPPfdJflE/ECHU+qFiFREukzYrH/52wXOV9OsQF3+3aiNQC8P/acUZ/lg==
   dependencies:
     classnames "2.2.5"
     fetch-normalize-data "1.8.4"
