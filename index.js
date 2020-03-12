@@ -15,7 +15,7 @@ const withLogin = config =>
     handleFail: (state, action, props) => {
       const { dispatch, currentUser } = props
       if (currentUser) dispatch(deleteData({ users: [{ id: currentUser.id }] }))
-      config.handleFail(state, action, props)
+      if (config.handleFail) config.handleFail(state, action, props)
     },
     withDispatcher: connect(mapStateToProps),
   })
