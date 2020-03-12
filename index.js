@@ -1,5 +1,5 @@
+import { deleteData } from 'fetch-normalize-data'
 import _withLogin, {
-  getCurrentUserUUID,
   resolveCurrentUser,
   selectCurrentUser,
 } from 'with-react-login'
@@ -10,13 +10,16 @@ const mapStateToProps = state => ({
 })
 
 const withLogin = config =>
-  _withLogin({ ...config, ...{ withDispatcher: connect(mapStateToProps) } })
+  _withLogin({
+    ...config,
+    handleFail: (state, action, props) => {
+      const { dispatch, currentUser } = props
+      if (currentUser) dispatch(deleteData({ users: [{ id: currentUser.id }] }))
+      config.handleFail(state, action, props)
+    },
+    withDispatcher: connect(mapStateToProps),
+  })
 
-export {
-  getCurrentUserUUID,
-  mapStateToProps,
-  resolveCurrentUser,
-  selectCurrentUser,
-}
+export { mapStateToProps, resolveCurrentUser, selectCurrentUser }
 
 export default withLogin
