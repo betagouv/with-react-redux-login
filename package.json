@@ -15,9 +15,9 @@
     "url": "https://github.com/betagouv/with-react-redux-login"
   },
   "dependencies": {
-    "fetch-normalize-data": "1.9.0",
+    "fetch-normalize-data": "1.10.0-timeout-4",
     "react-redux": "^7.1.1",
-    "with-react-login": "^1.12.0-rc1"
+    "with-react-login": "1.12.0-rc2"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.1",
@@ -47,7 +47,7 @@
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
-    "redux-thunk-data": "1.9.0"
+    "redux-thunk-data": "1.10.0-timeout-4"
   },
   "scripts": {
     "compile": "rm -rf lib && babel -d lib/ index.js",
