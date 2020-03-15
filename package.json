@@ -1,6 +1,6 @@
 {
   "name": "with-react-redux-login",
-  "version": "1.13.0-rc4",
+  "version": "1.13.0-rc5",
   "private": false,
   "main": "lib/index.js",
   "license": "MPL-2.0",
