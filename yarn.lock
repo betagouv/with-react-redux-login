@@ -2572,10 +2572,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-fetch-normalize-data@1.10.0-timeout-5:
-  version "1.10.0-timeout-5"
-  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.10.0-timeout-5.tgz#e24f88185941194d4a905a2fbf8aeccd3a271916"
-  integrity sha512-66MmnEj7K7uuCm0B+CKYLu5ItR2vmWZ9mBOIBeiPlwoYfhY3aBJwVZuk6PfKLxKHt0YmqGfP3AiYt37z0SmlCQ==
+fetch-normalize-data@1.10.0-timeout-6:
+  version "1.10.0-timeout-6"
+  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.10.0-timeout-6.tgz#168ab6472e69107d45743769796022c4944825c3"
+  integrity sha512-uj1Umn9r1mt0d8EOkrn3k88Jh+UGHxJlhQ9iiNBkWpYAonIm2XzDy2L3QXJW290aqZzgKncz70beSFR9gHLA2A==
   dependencies:
     lodash.uniqby "^4.7.0"
     re-reselect "^3.4.0"
@@ -5088,12 +5088,12 @@ realpath-native@^1.1.0:
   dependencies:
     util.promisify "^1.0.0"
 
-redux-thunk-data@1.10.0-timeout-5:
-  version "1.10.0-timeout-5"
-  resolved "https://registry.yarnpkg.com/redux-thunk-data/-/redux-thunk-data-1.10.0-timeout-5.tgz#be6aae538d71eb954b1126bae8881ad0ec1a7ce7"
-  integrity sha512-NvuTSb9akoxLSwghNzQFlKV+eaxQGY71gk8/EwECPuszfuKPtE/vcQyIZeCtee6BAqG+Zder5Y/pJY6d82nXwA==
+redux-thunk-data@1.10.0-timeout-6:
+  version "1.10.0-timeout-6"
+  resolved "https://registry.yarnpkg.com/redux-thunk-data/-/redux-thunk-data-1.10.0-timeout-6.tgz#7acfb7967db7464a56b0fd4057a0b80876ab34d8"
+  integrity sha512-By0LMmaRly2mfWoSD9CSAmUb9FBk8Qm4do0gx5D/4Zoo/Pkil3WnaDCzbzHV5qRw/hUle2zTLtdgJ0XNX2NM3A==
   dependencies:
-    fetch-normalize-data "1.10.0-timeout-5"
+    fetch-normalize-data "1.10.0-timeout-6"
 
 redux-thunk@^2.3.0:
   version "2.3.0"
@@ -6187,13 +6187,13 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-with-react-login@1.12.0-rc4:
-  version "1.12.0-rc4"
-  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.12.0-rc4.tgz#def3136d06eedbf66028661308fe3145f5c87749"
-  integrity sha512-rhQ1SLwaMTzgCEHK0iwsTmX5h1LcQKsq+fjlQuotBF0p0RAhXYfiqjLQIwjHZmukakj9eX3cS89m7v5VE4DopQ==
+with-react-login@1.12.0-rc5:
+  version "1.12.0-rc5"
+  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.12.0-rc5.tgz#6e4f00ca572ee920d275b6752cd83ccc6feb14fb"
+  integrity sha512-W1VgHb6Z0Fpo3SsFhAIuDWUeWG1R69U9WDyVWeiagMSKz5zogdLxldUKNV0oSx7FzSA0+j92sdi+NYD7kQGJPg==
   dependencies:
     classnames "2.2.5"
-    fetch-normalize-data "1.10.0-timeout-5"
+    fetch-normalize-data "1.10.0-timeout-6"
     lodash.uniq "^4.5.0"
     prop-types "^15.7.2"
     react "^16.10.1"
