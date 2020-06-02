@@ -3086,16 +3086,6 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-fetch-normalize-data@1.10.7:
-  version "1.10.7"
-  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.10.7.tgz#4e651b519111569bf29dc3de103e6c7f58ff94bb"
-  integrity sha512-1i2ka663WWSO/GMXxfbrlKE1Oo0FSrSh9fmCpPnmTJGyFNKgeXKbDW2quUbmMMumN4x7RgtW1/5YMnRFY8mFyg==
-  dependencies:
-    lodash.uniqby "^4.7.0"
-    re-reselect "^3.4.0"
-    reselect "^3.0.1"
-    uuid "^3.3.2"
-
 fetch-normalize-data@1.10.8:
   version "1.10.8"
   resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.10.8.tgz#cbe2e4ae504026b162353783fe0199a8aea41a43"
@@ -5808,12 +5798,12 @@ realpath-native@^2.0.0:
   resolved "https://registry.yarnpkg.com/realpath-native/-/realpath-native-2.0.0.tgz#7377ac429b6e1fd599dc38d08ed942d0d7beb866"
   integrity sha512-v1SEYUOXXdbBZK8ZuNgO4TBjamPsiSgcFr0aP+tEKpQZK8vooEUqV6nm6Cv502mX4NF2EfsnVqtNAHG+/6Ur1Q==
 
-redux-thunk-data@1.10.7:
-  version "1.10.7"
-  resolved "https://registry.yarnpkg.com/redux-thunk-data/-/redux-thunk-data-1.10.7.tgz#c7b8c13f48c221c1321004f4024a3075cf68421b"
-  integrity sha512-F4A28VjpFWsboJQbhxJmXziCulpjfGrr6jdn+ioS7cLFGznZBKL8bz5lWYLktgOvkDXGXD31xaQmc864NQQUeA==
+redux-thunk-data@1.10.8:
+  version "1.10.8"
+  resolved "https://registry.yarnpkg.com/redux-thunk-data/-/redux-thunk-data-1.10.8.tgz#6ba5390449bf602892b717e296f4b71addb76bd5"
+  integrity sha512-MjvIcdFoev/ZQgT+rtOcE5a79usuRN1yeC4GV5Q9I4ozEXhZHjV4sLZMRBS6ulw8k6Ms+NECN5MYk9OW4N0D9Q==
   dependencies:
-    fetch-normalize-data "1.10.7"
+    fetch-normalize-data "1.10.8"
 
 redux-thunk@^2.3.0:
   version "2.3.0"
