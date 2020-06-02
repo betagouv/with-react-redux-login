@@ -2667,10 +2667,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-fetch-normalize-data@1.10.3:
-  version "1.10.3"
-  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.10.3.tgz#a5c127bd2d9934732c7ccd55b2e479e2641906ae"
-  integrity sha512-vGsaDOkec5raQvzLJSFba4aR93QV3X9Bj7bC8lxCKLLkr1SXEhEw8EO9eiaG+TRtZJc/bvnbcar2NiEEeUZgIg==
+fetch-normalize-data@1.10.6:
+  version "1.10.6"
+  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.10.6.tgz#714a617ab2f7e086a499893b84e23f415d6beb39"
+  integrity sha512-jaTXvi1ITodIG9OE/71z9Jzj53OSy7NcCDO0p2/AWUAwNJH6+PIKkrl4TB0T7vpRvjczHyp8L2jMfpuTgWUgAQ==
   dependencies:
     lodash.uniqby "^4.7.0"
     re-reselect "^3.4.0"
@@ -6329,13 +6329,13 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-with-react-login@1.13.2:
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.13.2.tgz#d25418f51abc29c0e043be152d4ac069abf59165"
-  integrity sha512-pxwzWhZdmWkaVFAiBv4vsx3D2I7moNXU4KPkc2u/q97jtPs4BN0jKC942iOdqgemTAR88cgQelGdQ7is4SQBBw==
+with-react-login@1.13.3:
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/with-react-login/-/with-react-login-1.13.3.tgz#c3b1d3dcecdbd4e120a4880cb8df16b50481f0ac"
+  integrity sha512-A4mpLCl4lcwg5Y4m5rHVd2TY9P9kLiPO1I8A+9HKqfHCFiFnIOswTaG919c2IhQf4lEyA7p6V1lv3R7X6d3voQ==
   dependencies:
     classnames "2.2.5"
-    fetch-normalize-data "1.10.3"
+    fetch-normalize-data "1.10.6"
     lodash.uniq "^4.5.0"
     prop-types "^15.7.2"
     react "^16.10.1"
