@@ -1,8 +1,7 @@
-__specs__/
 .circleci/
+src/
 .eslintrc.json
 .prettierrc.json
-index.js
 jest.config.js
 jest.setup.js
 precommit.sh
