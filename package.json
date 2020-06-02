@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "classnames": "2.2.5",
-    "fetch-normalize-data": "1.10.8",
+    "fetch-normalize-data": "1.10.9",
     "lodash.uniq": "^4.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.1",
@@ -28,7 +28,6 @@
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.1",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
-    "@babel/plugin-proposal-decorators": "^7.10.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
     "@babel/polyfill": "^7.10.1",
     "@babel/preset-env": "^7.10.1",
@@ -55,7 +54,7 @@
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
-    "redux-thunk-data": "1.10.8"
+    "redux-thunk-data": "1.10.9"
   },
   "scripts": {
     "compile": "rm -rf lib && npx babel -d lib/ src/",
@@ -66,7 +65,7 @@
     "precommit": "./precommit.sh",
     "prettier": "$(yarn bin)/prettier --write 'src/**/*.js'",
     "prepublish": "npm run compile",
-    "test": "jest --env=jsdom ./__specs__",
+    "test": "jest --env=jsdom ./__tests__",
     "watch": "nodemon --watch index.js --exec 'npm run compile'"
   },
   "husky": {
