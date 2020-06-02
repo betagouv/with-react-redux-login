@@ -9,7 +9,7 @@ React Redux hoc component for rendering page only on user log success.
 
 ### Using redux-saga-data or redux-thunk-data
 
-See first the store install process in [redux-saga-data](https://github.com/betagouv/redux-saga-data).
+See first the store install process in [redux-thunk-data](https://github.com/betagouv/redux-thunk-data).
 
 Then you can declare a login component like this:
 
