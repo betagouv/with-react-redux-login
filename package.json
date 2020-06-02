@@ -15,17 +15,26 @@
     "url": "https://github.com/betagouv/with-react-redux-login"
   },
   "dependencies": {
+    "classnames": "2.2.5",
+    "fetch-normalize-data": "1.10.6",
+    "lodash.uniq": "^4.5.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.1",
     "react-redux": "^7.1.1",
-    "with-react-login": "1.13.8"
+    "reselect": "^3.0.1",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.1",
-    "@babel/core": "^7.0.1",
-    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
-    "@babel/polyfill": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.0",
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^26.0.1",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
     "eslint": "^5.16.0",
@@ -45,15 +54,18 @@
     "react-dom": "^16.10.1",
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.4",
-    "redux-saga": "1.1.1",
-    "redux-saga-data": "3.1.7"
+    "redux-thunk": "^2.3.0",
+    "redux-thunk-data": "1.10.6"
   },
   "scripts": {
-    "compile": "rm -rf lib && babel -d lib/ index.js",
-    "prepublish": "npm run compile",
+    "compile": "rm -rf lib && npx babel -d lib/ src/",
+    "format:js": "prettier-eslint --write './**/*.{js,jsx}'",
     "lint:js": "eslint './**/*.{js,jsx}'",
     "lint:js:fix": "npm run lint:js --fix",
-    "format:js": "prettier-eslint --write './**/*.{js,jsx}'",
+    "postinstall": "if [ -d \"src/\" ]; then npm run compile; fi",
+    "precommit": "./precommit.sh",
+    "prettier": "$(yarn bin)/prettier --write 'src/**/*.js'",
+    "prepublish": "npm run compile",
     "test": "jest --env=jsdom ./__specs__",
     "watch": "nodemon --watch index.js --exec 'npm run compile'"
   },

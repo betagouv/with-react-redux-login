@@ -18,6 +18,7 @@ import { withRouter } from 'react-router-dom'
 import { compose } from 'redux'
 import withLogin from 'with-react-redux-login'
 
+
 const withLoginRedirectToSigninWhenNotAuthenticated = compose(
   withRouter,
   withLogin({
@@ -29,6 +30,7 @@ const withLoginRedirectToSigninWhenNotAuthenticated = compose(
   })
 )
 
+
 const FooPage = () => {
   // withLogin passes a currentUser props
   const { currentUser } = this.props
@@ -39,6 +41,7 @@ const FooPage = () => {
     </div>
   )
 }
+
 
 export default compose(withLoginRedirectToSigninWhenNotAuthenticated)(FooPage)
 ```
