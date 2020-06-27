@@ -58,7 +58,7 @@
     "redux-thunk-data": "1.10.14"
   },
   "scripts": {
-    "compile": "rm -rf lib && npx babel -d lib/ --ignore tests src/",
+    "compile": "rm -rf lib && npx babel -d lib/ --ignore src/**/__tests__ src/",
     "format:js": "prettier-eslint --write './**/*.{js,jsx}'",
     "lint:js": "eslint './**/*.{js,jsx}'",
     "lint:js:fix": "npm run lint:js --fix",
