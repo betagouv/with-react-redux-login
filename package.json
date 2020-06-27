@@ -1,5 +1,6 @@
 {
   "name": "with-react-redux-login",
+  "description": "React hoc component for rendering page only on user sign success. It uses redux-thunk-data as implicit helper.",
   "version": "1.14.4",
   "private": false,
   "main": "lib/index.js",
@@ -36,7 +37,7 @@
     "babel-jest": "^26.0.1",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
-    "eslint": "^6.7.2",
+    "eslint": "7.3.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^23.1.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
@@ -54,7 +55,7 @@
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
-    "redux-thunk-data": "1.10.9"
+    "redux-thunk-data": "1.10.14"
   },
   "scripts": {
     "compile": "rm -rf lib && npx babel -d lib/ --ignore tests src/",
