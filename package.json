@@ -1,6 +1,6 @@
 {
   "name": "with-react-redux-login",
-  "description": "React hoc component for rendering page only on user sign success. It uses redux-thunk-data as implicit helper.",
+  "description": "React hoc component for rendering page only on user sign success. It uses fetch-normalize-data as implicit helper.",
   "version": "1.14.4",
   "private": false,
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "classnames": "2.2.5",
-    "fetch-normalize-data": "1.10.9",
+    "fetch-normalize-data": "1.10.14",
     "lodash.uniq": "^4.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.1",
