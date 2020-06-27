@@ -3103,6 +3103,16 @@ fetch-normalize-data@1.10.14:
     reselect "^3.0.1"
     uuid "^3.3.2"
 
+fetch-normalize-data@1.10.15:
+  version "1.10.15"
+  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.10.15.tgz#f44b22f2f6cead730e01469149e1be67ec463b1c"
+  integrity sha512-4imF7O0QgVSnNM7f75qicJ4aO1ExH8WN0gd6ofoSuwZgwWLeg+LPSB7pWQMCi9VdS36IovfuSL+BbpJsC+oxZA==
+  dependencies:
+    lodash.uniqby "^4.7.0"
+    re-reselect "^3.4.0"
+    reselect "^3.0.1"
+    uuid "^3.3.2"
+
 figures@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"
@@ -5774,10 +5784,10 @@ realpath-native@^2.0.0:
   resolved "https://registry.yarnpkg.com/realpath-native/-/realpath-native-2.0.0.tgz#7377ac429b6e1fd599dc38d08ed942d0d7beb866"
   integrity sha512-v1SEYUOXXdbBZK8ZuNgO4TBjamPsiSgcFr0aP+tEKpQZK8vooEUqV6nm6Cv502mX4NF2EfsnVqtNAHG+/6Ur1Q==
 
-redux-thunk-data@1.10.14:
-  version "1.10.14"
-  resolved "https://registry.yarnpkg.com/redux-thunk-data/-/redux-thunk-data-1.10.14.tgz#8a3c5aad9a5437ed03e293ee6c186615f3e8ed53"
-  integrity sha512-vHzaxRzgLiULguvUPGxwxJ2ET9ogPd495jkAywmojgU74oQZ39L034FENKKn826K4/L24cTosyg9AAOllwbJqA==
+redux-thunk-data@1.10.15:
+  version "1.10.15"
+  resolved "https://registry.yarnpkg.com/redux-thunk-data/-/redux-thunk-data-1.10.15.tgz#47929f25aaad5f51db69cfeb2af45ded67e86b23"
+  integrity sha512-UedgIRRJW9jsP06O6cgCk3Yn993byKVmjU9NOPJ0mCnkaySXPYlDkBO+d++Us8/5aNXbAcopqDNmCxwNqVRQhA==
   dependencies:
     fetch-normalize-data "1.10.14"
 
