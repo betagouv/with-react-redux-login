@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "classnames": "2.2.5",
-    "fetch-normalize-data": "1.10.17",
+    "fetch-normalize-data": "1.10.19",
     "lodash.uniq": "^4.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.1",
@@ -55,10 +55,10 @@
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
-    "redux-thunk-data": "1.10.17"
+    "redux-thunk-data": "1.10.19"
   },
   "scripts": {
-    "compile": "rm -rf lib && npx babel -d lib/ --ignore src/**/__tests__ src/",
+    "compile": "rm -rf lib && npx babel -d lib/ --ignore **/__tests__ src/",
     "format:js": "prettier-eslint --write './**/*.{js,jsx}'",
     "lint:js": "eslint './**/*.{js,jsx}'",
     "lint:js:fix": "npm run lint:js --fix",
