@@ -2,7 +2,7 @@ import { requestData as defaultRequestData } from 'fetch-normalize-data'
 import PropTypes from 'prop-types'
 import React, { PureComponent } from 'react'
 
-import resolveCurrentUser from './resolveCurrentUser'
+import processCurrentUser from './processCurrentUser'
 
 export default (config = {}) => WrappedComponent => {
   const { withDispatcher, ...requestDataConfig } = config
@@ -35,7 +35,7 @@ export default (config = {}) => WrappedComponent => {
       dispatch(
         requestData({
           apiPath: currentUserApiPath,
-          resolve: resolveCurrentUser,
+          process: processCurrentUser,
           ...requestDataConfig,
           handleFail: this.handleFailLogin,
           handleSuccess: this.handleSuccessLogin,
@@ -64,7 +64,7 @@ export default (config = {}) => WrappedComponent => {
       this.setState(
         {
           canRenderChildren: true,
-          currentUser: resolveCurrentUser(datum),
+          currentUser: processCurrentUser(datum),
         },
         () => {
           if (handleSuccess) handleSuccess(state, action, this.props)
