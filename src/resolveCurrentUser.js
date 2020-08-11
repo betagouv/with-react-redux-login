@@ -1,6 +1,10 @@
-export default userFromRequest => {
+export default (userFromRequest, previousUser) => {
   if (!userFromRequest) {
     return null
   }
-  return Object.assign({ __IS_CURRENT__: true }, userFromRequest)
+  return {
+    __IS_CURRENT__: true,
+    ...previousUser,
+    ...userFromRequest
+  }
 }
