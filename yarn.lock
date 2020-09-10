@@ -3104,6 +3104,17 @@ fetch-normalize-data@1.11.0:
     reselect "^3.0.1"
     uuid "^3.3.2"
 
+fetch-normalize-data@1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.12.0.tgz#afa9a5f1ad65f8855c645f676ff2a35a3bb62908"
+  integrity sha512-zA/eDDeitmTNmJ0jo/Njxjz2kmKUFz3Xtj2mZKUlctT1dJLmAkxBxj2tqQ+IdigokwR3Wf8nRpvL2zeO5dDakA==
+  dependencies:
+    lodash.uniq "^4.5.0"
+    lodash.uniqby "^4.7.0"
+    re-reselect "^3.4.0"
+    reselect "^3.0.1"
+    uuid "^3.3.2"
+
 figures@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"
