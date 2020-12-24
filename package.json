@@ -1,7 +1,7 @@
 {
   "name": "with-react-redux-login",
   "description": "React hoc component for rendering page only on user sign success. It uses fetch-normalize-data as implicit helper.",
-  "version": "1.19.10",
+  "version": "1.19.11",
   "private": false,
   "main": "lib/index.js",
   "license": "MPL-2.0",
