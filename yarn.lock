@@ -3104,10 +3104,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-fetch-normalize-data@1.18.15:
-  version "1.18.15"
-  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.18.15.tgz#862561fd425c7914e10d04e71b697bf6085507fd"
-  integrity sha512-5C+zBACz+xqXvIGr+gRUFknuedqdvwIOTkTlWH2z5n1GnjUn00BmcOZf6u13nL3VVwsI8xPNqyp+CIgORYp9Mg==
+fetch-normalize-data@1.18.16:
+  version "1.18.16"
+  resolved "https://registry.yarnpkg.com/fetch-normalize-data/-/fetch-normalize-data-1.18.16.tgz#042750f98774c6eb28700cbdf5bb28e41957b843"
+  integrity sha512-NQFEPKnE4AV+SDD7Lzuop8TIA6xHK6lr5Bev2AJQc5Bk1OE2NnS9RInAaH1Ghsjfozrk9PofgQwVI/vY2k6AhQ==
   dependencies:
     lodash.uniq "^4.5.0"
     lodash.uniqby "^4.7.0"
@@ -5792,12 +5792,12 @@ readdirp@~3.5.0:
   dependencies:
     picomatch "^2.2.1"
 
-redux-thunk-data@1.18.15:
-  version "1.18.15"
-  resolved "https://registry.yarnpkg.com/redux-thunk-data/-/redux-thunk-data-1.18.15.tgz#84b3dd5cc10a2d2443159d2b397fb7a2dd781f1b"
-  integrity sha512-nyWHRc50fdmI50sPjQjueqIh+206Xw8BwaYBCRdUhbQPMyD5x/9rJS1iub1dXTUUfGmPhrkVJtuFoP+clQdcaA==
+redux-thunk-data@1.18.16:
+  version "1.18.16"
+  resolved "https://registry.yarnpkg.com/redux-thunk-data/-/redux-thunk-data-1.18.16.tgz#7be621abfbbffac3c541fabd2d598d07bef3b9c4"
+  integrity sha512-sLNsCgLs6bbbUJ6jAOdyjSAICMyRVbOxWLHY1m1fTVhM9g/evPCkO8IiUtb9oD9ZlTGD18ym4T2lum0BecHt5A==
   dependencies:
-    fetch-normalize-data "1.18.15"
+    fetch-normalize-data "1.18.16"
 
 redux-thunk@^2.3.0:
   version "2.3.0"
