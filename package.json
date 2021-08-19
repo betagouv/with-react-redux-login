@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "classnames": "2.2.5",
-    "fetch-normalize-data": "1.22.2",
+    "fetch-normalize-data": "1.22.3",
     "lodash.uniq": "^4.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.1",
@@ -55,7 +55,7 @@
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
-    "redux-thunk-data": "1.22.2"
+    "redux-thunk-data": "1.22.3"
   },
   "scripts": {
     "compile": "rm -rf lib && npx babel -d lib/ --ignore **/__tests__ src/",
